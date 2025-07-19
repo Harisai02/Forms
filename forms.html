@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2><u>Course Enrollment from</u></h2>
+    <p>You can enroll your <b>Course</b> Here.</p>
+    <p>This is "additional course for every branch student for each year students".</p>
+    
+    <p>Please enter your details.</p>
+
+    <hr>
+    <p>Please ensure that <b>"FILL ALL DETAIL"</b>(mandatory).</p>
+    
+    <form action="" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="person" maxlength="20" placeholder="Enter your name here" required>
+        <br>
+        <br>
+        <label for="year">Year:</label>
+        <input type="text" id="year" name="year" value="" placeholder="EX:-1st , 2nd , 3rd , 4th...." required>
+
+
+        <br>
+        <br>
+        <label for="branch">Select your Branch:</label>
+        <br>
+        <input type="radio" id="branch" name="branch" value="cse_all" required><label>CSE(ALL)</label>
+        <br>
+        <input type="radio" id="branch" name="branch" value="IT" required><label>IT</label>
+        <br>
+        <input type="radio" id="branch" name="branch" value="ece" required><label>ECE</label>
+        <br>
+        <input type="radio" id="branch" name="branch" value="eee" required><label>EEE</label>
+        <br>
+        <input type="radio" id="branch" name="branch" value="mech" required><label>MECH</label>
+        <br>
+        <input type="radio" id="branch" name="branch" value="civil" required><label>CIVIL</label>
+        <br>
+        <br>
+        <label id="class">Section no:</label>
+        <input type="number" id="class" name="class" min="1" max="9" placeholder="ex:-1,2,3...." maxlength="1" required>
+
+        <br>
+        <br>
+        <label for="course">Select your course:</label>
+        <select for="course" name="course" value="course" placeholder="Select" required>
+            <option value="french">French</option>
+            <option value="japanese">Japanese</option>
+            <option value="spanish">Spanish</option>
+            <option value="german">German</option>
+            <option value="russian">Russian</option>
+            <option value="arabic">Arabic</option>
+        </select>
+        <labe><b>(NOTE:-</b>Mandatory to choose this additional course<b>)</b></labe>
+        <br>
+        <br>
+        <label for="slot" ><b>Slot</b>(Select any two slots only):</label>
+        <br>
+        <input type="checkbox" id="slot" name="slot" value="9am" required><label><b>9AM-slot</b></label>
+        <input type="checkbox" id="slot" name="slot" value="10am" required><label><b>10AM-slot</b></label>
+        <input type="checkbox" id="slot" name="slot" value="11am" required><label><b>11AM-slot</b></label>
+        <input type="checkbox" id="slot" name="slot" value="12pm" required><label><b>12PM-slot</b></label>
+        <input type="checkbox" id="slot" name="slot" value="01pm" required><label><b>01PM-slot</b></label>
+        <input type="checkbox" id="slot" name="slot" value="02pm" required><label><b>02PM-slot</b></label>
+        <input type="checkbox" id="slot" name="slot" value="03pm" required><label><b>03PM-slot</b></label>
+        <br>
+        <label>As per our conveniences we can arrange your slots</label>
+        <br>
+        <br>
+        <br>
+        <label for="feedback">Feedback:</label><br>
+        <textarea type="textarea" id="feedback" name="feedback" placeholder="Enter your feedback here" cols="40" rows="5"></textarea>
+        <br>
+        <br>
+        <button type="submit">SUBMIT</button>
+        <br>
+        <button type="reset">RESET</button>
+        
+
+    </form>
+
+
+
+
+</body>
+</html>
